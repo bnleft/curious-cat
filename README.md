@@ -16,6 +16,20 @@ Curious Cat is an iOS application aim to tranform your images into something you
 - **Interactive Cat Images**: Users can browse through a variety of cat images, each paired with a creative prompt suggesting a playful modification to the image.
 - **Image Gallery**: Users can see their creations.
 
+## Demo
+
+### Image 1
+
+![Curious Cat Demo 1](Demo/demo-1.png)
+
+### Image 2
+
+![Curious Cat Demo 2](Demo/demo-2.png)
+
+### Image 3
+
+![Curious Cat Demo 3](Demo/demo-3.png)
+
 ## Future Features
 
 - **ml-mgie full Integration**: add a multi modal llm from Apple
