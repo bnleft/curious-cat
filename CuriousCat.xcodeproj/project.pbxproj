@@ -7,59 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57561FE22B8C27B1000C8EA0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57561FE12B8C27B1000C8EA0 /* DetailView.swift */; };
+		57561FE52B8C293C000C8EA0 /* ImagePrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57561FE42B8C293C000C8EA0 /* ImagePrompt.swift */; };
+		57561FE72B8C3116000C8EA0 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57561FE62B8C3116000C8EA0 /* KeyboardResponder.swift */; };
+		57561FE92B8C32F5000C8EA0 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57561FE82B8C32F5000C8EA0 /* Cat.swift */; };
 		5762147E2B851BF500FB7412 /* CuriousCatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762147D2B851BF500FB7412 /* CuriousCatApp.swift */; };
 		576214802B851BF500FB7412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762147F2B851BF500FB7412 /* ContentView.swift */; };
 		576214822B851BF600FB7412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576214812B851BF600FB7412 /* Assets.xcassets */; };
 		576214852B851BF600FB7412 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576214842B851BF600FB7412 /* Preview Assets.xcassets */; };
-		576214A82B8ADF7F00FB7412 /* SummarizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576214A72B8ADF7F00FB7412 /* SummarizeModel.swift */; };
-		576214AB2B8ADFF900FB7412 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 576214AA2B8ADFF900FB7412 /* GoogleGenerativeAI */; };
+		576214B32B8BDA5800FB7412 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576214B22B8BDA5800FB7412 /* FloatingButton.swift */; };
+		576214B62B8BDA9500FB7412 /* GradientBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576214B52B8BDA9500FB7412 /* GradientBox.swift */; };
+		576214BC2B8BF1C300FB7412 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576214BB2B8BF1C300FB7412 /* ImagePicker.swift */; };
+		576214BE2B8BFBAC00FB7412 /* GenerateForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576214BD2B8BFBAC00FB7412 /* GenerateForm.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5762148B2B851BF600FB7412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 576214722B851BF500FB7412 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 576214792B851BF500FB7412;
-			remoteInfo = CuriousCat;
-		};
-		576214952B851BF600FB7412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 576214722B851BF500FB7412 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 576214792B851BF500FB7412;
-			remoteInfo = CuriousCat;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		57561FE12B8C27B1000C8EA0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		57561FE42B8C293C000C8EA0 /* ImagePrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrompt.swift; sourceTree = "<group>"; };
+		57561FE62B8C3116000C8EA0 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		57561FE82B8C32F5000C8EA0 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		5762147A2B851BF500FB7412 /* CuriousCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuriousCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5762147D2B851BF500FB7412 /* CuriousCatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriousCatApp.swift; sourceTree = "<group>"; };
 		5762147F2B851BF500FB7412 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		576214812B851BF600FB7412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576214842B851BF600FB7412 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5762148A2B851BF600FB7412 /* CuriousCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuriousCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		576214942B851BF600FB7412 /* CuriousCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuriousCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		576214A72B8ADF7F00FB7412 /* SummarizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarizeModel.swift; sourceTree = "<group>"; };
+		576214B22B8BDA5800FB7412 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		576214B52B8BDA9500FB7412 /* GradientBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBox.swift; sourceTree = "<group>"; };
+		576214BB2B8BF1C300FB7412 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		576214BD2B8BFBAC00FB7412 /* GenerateForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		576214772B851BF500FB7412 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				576214AB2B8ADFF900FB7412 /* GoogleGenerativeAI in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		576214872B851BF600FB7412 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		576214912B851BF600FB7412 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57561FE32B8C2930000C8EA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57561FE42B8C293C000C8EA0 /* ImagePrompt.swift */,
+				57561FE82B8C32F5000C8EA0 /* Cat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		576214712B851BF500FB7412 = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				5762147A2B851BF500FB7412 /* CuriousCat.app */,
-				5762148A2B851BF600FB7412 /* CuriousCatTests.xctest */,
-				576214942B851BF600FB7412 /* CuriousCatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +76,10 @@
 		5762147C2B851BF500FB7412 /* CuriousCat */ = {
 			isa = PBXGroup;
 			children = (
+				57561FE32B8C2930000C8EA0 /* Models */,
+				576214B02B8BD97500FB7412 /* UIComponents */,
+				576214AE2B8BD90400FB7412 /* Views */,
 				5762147D2B851BF500FB7412 /* CuriousCatApp.swift */,
-				576214A72B8ADF7F00FB7412 /* SummarizeModel.swift */,
-				5762147F2B851BF500FB7412 /* ContentView.swift */,
 				576214812B851BF600FB7412 /* Assets.xcassets */,
 				576214832B851BF600FB7412 /* Preview Content */,
 			);
@@ -105,6 +92,27 @@
 				576214842B851BF600FB7412 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		576214AE2B8BD90400FB7412 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57561FE12B8C27B1000C8EA0 /* DetailView.swift */,
+				5762147F2B851BF500FB7412 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		576214B02B8BD97500FB7412 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				576214B22B8BDA5800FB7412 /* FloatingButton.swift */,
+				576214B52B8BDA9500FB7412 /* GradientBox.swift */,
+				576214BB2B8BF1C300FB7412 /* ImagePicker.swift */,
+				576214BD2B8BFBAC00FB7412 /* GenerateForm.swift */,
+				57561FE62B8C3116000C8EA0 /* KeyboardResponder.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,47 +132,10 @@
 			);
 			name = CuriousCat;
 			packageProductDependencies = (
-				576214AA2B8ADFF900FB7412 /* GoogleGenerativeAI */,
 			);
 			productName = CuriousCat;
 			productReference = 5762147A2B851BF500FB7412 /* CuriousCat.app */;
 			productType = "com.apple.product-type.application";
-		};
-		576214892B851BF600FB7412 /* CuriousCatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 576214A12B851BF600FB7412 /* Build configuration list for PBXNativeTarget "CuriousCatTests" */;
-			buildPhases = (
-				576214862B851BF600FB7412 /* Sources */,
-				576214872B851BF600FB7412 /* Frameworks */,
-				576214882B851BF600FB7412 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5762148C2B851BF600FB7412 /* PBXTargetDependency */,
-			);
-			name = CuriousCatTests;
-			productName = CuriousCatTests;
-			productReference = 5762148A2B851BF600FB7412 /* CuriousCatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		576214932B851BF600FB7412 /* CuriousCatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 576214A42B851BF600FB7412 /* Build configuration list for PBXNativeTarget "CuriousCatUITests" */;
-			buildPhases = (
-				576214902B851BF600FB7412 /* Sources */,
-				576214912B851BF600FB7412 /* Frameworks */,
-				576214922B851BF600FB7412 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				576214962B851BF600FB7412 /* PBXTargetDependency */,
-			);
-			name = CuriousCatUITests;
-			productName = CuriousCatUITests;
-			productReference = 576214942B851BF600FB7412 /* CuriousCatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -178,14 +149,6 @@
 				TargetAttributes = {
 					576214792B851BF500FB7412 = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					576214892B851BF600FB7412 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 576214792B851BF500FB7412;
-					};
-					576214932B851BF600FB7412 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 576214792B851BF500FB7412;
 					};
 				};
 			};
@@ -206,8 +169,6 @@
 			projectRoot = "";
 			targets = (
 				576214792B851BF500FB7412 /* CuriousCat */,
-				576214892B851BF600FB7412 /* CuriousCatTests */,
-				576214932B851BF600FB7412 /* CuriousCatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,20 +183,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		576214882B851BF600FB7412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		576214922B851BF600FB7412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,40 +190,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				576214A82B8ADF7F00FB7412 /* SummarizeModel.swift in Sources */,
+				57561FE22B8C27B1000C8EA0 /* DetailView.swift in Sources */,
+				576214B62B8BDA9500FB7412 /* GradientBox.swift in Sources */,
+				57561FE72B8C3116000C8EA0 /* KeyboardResponder.swift in Sources */,
 				576214802B851BF500FB7412 /* ContentView.swift in Sources */,
+				576214BE2B8BFBAC00FB7412 /* GenerateForm.swift in Sources */,
+				576214B32B8BDA5800FB7412 /* FloatingButton.swift in Sources */,
+				576214BC2B8BF1C300FB7412 /* ImagePicker.swift in Sources */,
+				57561FE92B8C32F5000C8EA0 /* Cat.swift in Sources */,
 				5762147E2B851BF500FB7412 /* CuriousCatApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		576214862B851BF600FB7412 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		576214902B851BF600FB7412 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				57561FE52B8C293C000C8EA0 /* ImagePrompt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5762148C2B851BF600FB7412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 576214792B851BF500FB7412 /* CuriousCat */;
-			targetProxy = 5762148B2B851BF600FB7412 /* PBXContainerItemProxy */;
-		};
-		576214962B851BF600FB7412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 576214792B851BF500FB7412 /* CuriousCat */;
-			targetProxy = 576214952B851BF600FB7412 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5762149C2B851BF600FB7412 /* Debug */ = {
@@ -462,82 +389,6 @@
 			};
 			name = Release;
 		};
-		576214A22B851BF600FB7412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KW4434WNW9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bryantleft.CuriousCatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuriousCat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CuriousCat";
-			};
-			name = Debug;
-		};
-		576214A32B851BF600FB7412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KW4434WNW9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bryantleft.CuriousCatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuriousCat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CuriousCat";
-			};
-			name = Release;
-		};
-		576214A52B851BF600FB7412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KW4434WNW9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bryantleft.CuriousCatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CuriousCat;
-			};
-			name = Debug;
-		};
-		576214A62B851BF600FB7412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KW4434WNW9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bryantleft.CuriousCatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CuriousCat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -559,24 +410,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		576214A12B851BF600FB7412 /* Build configuration list for PBXNativeTarget "CuriousCatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				576214A22B851BF600FB7412 /* Debug */,
-				576214A32B851BF600FB7412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		576214A42B851BF600FB7412 /* Build configuration list for PBXNativeTarget "CuriousCatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				576214A52B851BF600FB7412 /* Debug */,
-				576214A62B851BF600FB7412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -589,14 +422,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		576214AA2B8ADFF900FB7412 /* GoogleGenerativeAI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 576214A92B8ADFF900FB7412 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
-			productName = GoogleGenerativeAI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 576214722B851BF500FB7412 /* Project object */;
 }
