@@ -1,6 +1,6 @@
 # Curious Cat
 
-Curious Cat is an iOS application aim to tranform your images into something you through natural language. Also there is a cat that yaps.
+Curiousity kills the cat! The cat yaps but also want to know how your images can be changed through natural language.
 
 ## Technologies
 
